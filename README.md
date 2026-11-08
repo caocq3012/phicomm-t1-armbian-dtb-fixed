@@ -26,9 +26,9 @@
 ## 使用方法
 
 1. 将本文件复制到 Armbian 启动盘 BOOT 分区的 `dtb/` 目录
-2. 编辑 BOOT 分区根目录的 `uEnv.txt`，将 `FDT=` 指向本文件：
+2. 编辑 BOOT 分区根目录的 `uEnv.ini`，将 `dtb_name=` 指向本文件：
 
-    FDT=/dtb/amlogic/meson-gxm-phicomm-t1-fixed.dtb
+    dtb_name=/dtb/meson-gxm-t1-fixed.dtb
 
 3. 保存后重启，验证 eMMC 是否识别：
 
