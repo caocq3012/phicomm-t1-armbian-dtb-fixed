@@ -48,4 +48,4 @@ You should see `mmcblk1` along with `mmcblk1boot0` / `mmcblk1boot1`:
 
 If eMMC is still not detected after using this file, you can lower `max-frequency` further to 12.5MHz (`0xBEBC20`) and recompile.
 
-An IMG image is also included for you to flash yourself. Note: the DTB and uEnv files have already been modified for you — simply flash the image and install.
+An IMG image is also included for you to flash yourself,go to:(Releases)[https://github.com/caocq3012/phicomm-t1-armbian-dtb-fixed/releases/tag/v1.0.0]. Note: the DTB and uEnv files have already been modified for you — simply flash the image and install.
