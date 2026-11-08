@@ -49,4 +49,4 @@
 ## 备注
 
 如果使用本文件后 eMMC 仍无法识别，可将 `max-frequency` 进一步降至 12.5MHz（`0xBEBC20`）后重新编译。
-同时附赠img镜像可以自行烧录,转到(Releases)[https://github.com/caocq3012/phicomm-t1-armbian-dtb-fixed/releases/tag/v1.0.0],需要注意：我已经将dtb和uenv改好，直接烧录后安装即可
+同时附赠img镜像可以自行烧录,转到(Releases)[https://github.com/caocq3012/phicomm-t1-armbian-dtb-fixed/releases/tag/v1.0.0]   ,需要注意：我已经将dtb和uenv改好，直接烧录后安装即可
