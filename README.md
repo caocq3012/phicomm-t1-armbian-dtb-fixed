@@ -1,5 +1,7 @@
 # meson-gxm-phicomm-t1-fixed.dtb
 
+[English](https://github.com/caocq3012/phicomm-t1-armbian-dtb-fixed/blob/main/README_EN.md)
+
 斐讯 T1（Amlogic S912 / GXM）Armbian 专用设备树文件，修复 eMMC 无法识别的问题。
 
 ## 问题
