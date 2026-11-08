@@ -25,7 +25,7 @@
 
 ## 使用方法
 
-1. 将本文件复制到 Armbian 启动盘 BOOT 分区的 `dtb/amlogic/` 目录
+1. 将本文件复制到 Armbian 启动盘 BOOT 分区的 `dtb/` 目录
 2. 编辑 BOOT 分区根目录的 `uEnv.txt`，将 `FDT=` 指向本文件：
 
     FDT=/dtb/amlogic/meson-gxm-phicomm-t1-fixed.dtb
