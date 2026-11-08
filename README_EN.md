@@ -23,10 +23,10 @@ All other nodes (WiFi/SDIO `mmc@70000`, SD card `mmc@72000`, etc.) are left unch
 
 ## Usage
 
-1. Copy this file to the `dtb/amlogic/` directory on the BOOT partition of your Armbian boot media
-2. Edit `uEnv.txt` in the root of the BOOT partition and point `FDT=` to this file:
+1. Copy this file to the `dtb/` directory on the BOOT partition of your Armbian boot media
+2. Edit `uEnv.ini` in the root of the BOOT partition and point `dtb_name` to this file:
 
-    FDT=/dtb/amlogic/meson-gxm-phicomm-t1-fixed.dtb
+    dtb_name=/dtb/meson-gxm-t1-fixed.dtb
 
 3. Save, reboot, and verify that eMMC is detected:
 
